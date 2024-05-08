@@ -11,8 +11,6 @@ public class Main {
         bst.put(sc.nextInt(), sc.nextLine());
         bst.put(sc.nextInt(), sc.nextLine());
         bst.put(sc.nextInt(), sc.nextLine());
-
-        // Пример обхода дерева с помощью итератора и вывод ключей и значений
         for (var node : bst) {
             System.out.println("Key is " + node.getKey() + " and value is " + node.getValue());
         }
