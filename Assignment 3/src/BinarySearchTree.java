@@ -2,7 +2,7 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.Stack;
 
-class BinarySearchTree<K extends Comparable<K>, V> implements Iterable<BinarySearchTree.Node<K, V>> {
+class BinarySearchTree<K extends Comparable<K>, V> {
 
     private Node<K, V> root;
     private int size;
